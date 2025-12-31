@@ -29,7 +29,7 @@ class HeapNode {
         distanceFromOrigin = distanceFromOrigin(x, y); 
     }
     private double distanceFromOrigin(int x, int y) {
-        return Math.sqrt(Math.powExact(x, 2) + Math.powExact(y, 2));
+        return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
     }
 
 
